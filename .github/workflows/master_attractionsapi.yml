@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - attractionsapi
+name: Build and deploy ASP.Net Core app to Azure Web App - AttractionsApi
 
 on:
   push:
@@ -51,15 +51,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_928C3FF39A7E4F31B1D8DDBFF19F1A59 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A8B90414EAF44416BAC8741E2C66AE9E }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_4C3923F4DBBF4C5CBAB02585AF0D9C22 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_1957A762F0BA4A2A8D55C8E883822FBC }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_1AF84DCF0FC64163899A09D6C59F04F0 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_02CC2B6936E740349341AAA31A78E4F3 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'attractionsapi'
+          app-name: 'AttractionsApi'
           slot-name: 'Production'
           package: .
           
