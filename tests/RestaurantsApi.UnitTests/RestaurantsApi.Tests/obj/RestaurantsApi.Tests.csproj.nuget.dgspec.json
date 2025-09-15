@@ -1,0 +1,417 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\tests\\RestaurantsApi.UnitTests\\RestaurantsApi.Tests\\RestaurantsApi.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Api\\RestaurantsApi.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Api\\RestaurantsApi.Api.csproj",
+        "projectName": "RestaurantsApi.Api",
+        "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Api\\RestaurantsApi.Api.csproj",
+        "packagesPath": "C:\\Users\\joker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joker\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Application\\RestaurantsApi.Application.csproj": {
+                "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Application\\RestaurantsApi.Application.csproj"
+              },
+              "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Infrastructure\\RestaurantsApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Infrastructure\\RestaurantsApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Application\\RestaurantsApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Application\\RestaurantsApi.Application.csproj",
+        "projectName": "RestaurantsApi.Application",
+        "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Application\\RestaurantsApi.Application.csproj",
+        "packagesPath": "C:\\Users\\joker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joker\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Domain\\RestaurantsApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Domain\\RestaurantsApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Domain\\RestaurantsApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Domain\\RestaurantsApi.Domain.csproj",
+        "projectName": "RestaurantsApi.Domain",
+        "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Domain\\RestaurantsApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\joker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joker\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Infrastructure\\RestaurantsApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Infrastructure\\RestaurantsApi.Infrastructure.csproj",
+        "projectName": "RestaurantsApi.Infrastructure",
+        "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Infrastructure\\RestaurantsApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\joker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joker\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Application\\RestaurantsApi.Application.csproj": {
+                "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Application\\RestaurantsApi.Application.csproj"
+              },
+              "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Domain\\RestaurantsApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Domain\\RestaurantsApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\tests\\RestaurantsApi.UnitTests\\RestaurantsApi.Tests\\RestaurantsApi.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\tests\\RestaurantsApi.UnitTests\\RestaurantsApi.Tests\\RestaurantsApi.Tests.csproj",
+        "projectName": "RestaurantsApi.Tests",
+        "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\tests\\RestaurantsApi.UnitTests\\RestaurantsApi.Tests\\RestaurantsApi.Tests.csproj",
+        "packagesPath": "C:\\Users\\joker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\tests\\RestaurantsApi.UnitTests\\RestaurantsApi.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joker\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Api\\RestaurantsApi.Api.csproj": {
+                "projectPath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Api\\RestaurantsApi.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/14344f68-a5cf-4be1-8453-9a448e696d8f/resourceGroups/rg1/providers/Microsoft.Web/sites/AttractionsApi",
+    "appService.deploySubpath": "."
+}
