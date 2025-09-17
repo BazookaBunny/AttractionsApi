@@ -72,7 +72,8 @@ public class AttractionsController : ControllerBase
             Address = restaurant.Address,
             Category = restaurant.Category,
             Latitude = restaurant.Latitude,
-            Longitude = restaurant.Longitude
+            Longitude = restaurant.Longitude,
+            ImageUrl = restaurant.ImageUrl
         });
 
         return Ok();
