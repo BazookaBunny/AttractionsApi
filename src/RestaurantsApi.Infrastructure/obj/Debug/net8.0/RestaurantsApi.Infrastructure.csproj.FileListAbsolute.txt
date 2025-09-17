@@ -17,3 +17,4 @@ C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Infrastructure
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Infrastructure\obj\Debug\net8.0\RestaurantsApi.Infrastructure.pdb
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Infrastructure\obj\Debug\net8.0\RestaurantsApi.Infrastructure.genruntimeconfig.cache
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Infrastructure\obj\Debug\net8.0\ref\RestaurantsApi.Infrastructure.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Infrastructure\obj\Debug\net8.0\RestaurantsApi.Infrastructure.sourcelink.json

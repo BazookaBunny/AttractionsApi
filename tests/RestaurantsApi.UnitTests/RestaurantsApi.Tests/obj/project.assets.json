@@ -2619,8 +2619,7 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "RestaurantsApi.Application": "1.0.0",
           "RestaurantsApi.Infrastructure": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.6.2",
-          "Xunit": "2.9.3"
+          "Swashbuckle.AspNetCore": "6.6.2"
         },
         "compile": {
           "bin/placeholder/RestaurantsApi.Api.dll": {}
@@ -8151,16 +8150,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Xunit from 2.9.3 to 2.5.3. Reference the package directly from the project to select a different version. \r\n RestaurantsApi.Tests -> RestaurantsApi.Api -> Xunit (>= 2.9.3) \r\n RestaurantsApi.Tests -> xunit (>= 2.5.3)",
-      "libraryId": "Xunit",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

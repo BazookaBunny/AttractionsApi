@@ -13,3 +13,4 @@ C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\ob
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Debug\net8.0\refint\RestaurantsApi.Application.dll
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Debug\net8.0\RestaurantsApi.Application.pdb
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Debug\net8.0\ref\RestaurantsApi.Application.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Debug\net8.0\RestaurantsApi.Application.sourcelink.json

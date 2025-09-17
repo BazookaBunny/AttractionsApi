@@ -11,6 +11,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Enable legacy timestamp behavior (PostgreSQL compatibility)
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
+// nivele recomandate (poți ajusta)
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole(); // ← se vede în Log stream
+builder.Logging.AddDebug();
+
 //add services to the container
 builder.Services.AddScoped<IRestaurantsRepository, RestaurantsRepository>();
 builder.Services.AddScoped<IRestaurantsService, RestaurantsService>();
@@ -100,26 +105,14 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Map controllers
-app.MapControllers();
-
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Restaurants API V1");
-    c.RoutePrefix = "swagger"; // Set Swagger UI at the app's root
+    c.RoutePrefix = string.Empty; // Set Swagger UI at the app's root
 });
 
-app.MapGet("/", context =>
-{
-    context.Response.Redirect("/swagger");
-    return Task.CompletedTask;
-});
-
-app.MapGet("/api", context =>
-{
-    context.Response.Redirect("/swagger");
-    return Task.CompletedTask;
-});
+// Map controllers
+app.MapControllers();
 
 app.Run();

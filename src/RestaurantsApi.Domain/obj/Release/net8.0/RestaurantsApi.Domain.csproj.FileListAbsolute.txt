@@ -1,0 +1,12 @@
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\bin\Release\net8.0\RestaurantsApi.Domain.deps.json
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\bin\Release\net8.0\RestaurantsApi.Domain.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\bin\Release\net8.0\RestaurantsApi.Domain.pdb
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\RestaurantsApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\RestaurantsApi.Domain.AssemblyInfoInputs.cache
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\RestaurantsApi.Domain.AssemblyInfo.cs
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\RestaurantsApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\RestaurantsApi.Domain.sourcelink.json
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\RestaurantsApi.Domain.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\refint\RestaurantsApi.Domain.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\RestaurantsApi.Domain.pdb
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Release\net8.0\ref\RestaurantsApi.Domain.dll

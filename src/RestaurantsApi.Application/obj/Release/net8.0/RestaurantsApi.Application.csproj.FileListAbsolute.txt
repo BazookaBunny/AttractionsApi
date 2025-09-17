@@ -1,0 +1,16 @@
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\bin\Release\net8.0\RestaurantsApi.Application.deps.json
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\bin\Release\net8.0\RestaurantsApi.Application.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\bin\Release\net8.0\RestaurantsApi.Application.pdb
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\bin\Release\net8.0\RestaurantsApi.Domain.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\bin\Release\net8.0\RestaurantsApi.Domain.pdb
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\RestaurantsApi.Application.csproj.AssemblyReference.cache
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\RestaurantsApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\RestaurantsApi.Application.AssemblyInfoInputs.cache
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\RestaurantsApi.Application.AssemblyInfo.cs
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\RestaurantsApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\RestaurantsApi.Application.sourcelink.json
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\Restaura.DAF4EB0D.Up2Date
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\RestaurantsApi.Application.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\refint\RestaurantsApi.Application.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\RestaurantsApi.Application.pdb
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Application\obj\Release\net8.0\ref\RestaurantsApi.Application.dll

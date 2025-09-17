@@ -188,3 +188,9 @@ C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\net8.0\xunit.assert.dll
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\net8.0\xunit.core.dll
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\net8.0\publish\web.config
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\net8.0\publish\RestaurantsApi.Api.deps.json
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\bin\Debug\net8.0\publish\RestaurantsApi.Api.runtimeconfig.json
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Api\obj\Debug\net8.0\RestaurantsApi.Api.sourcelink.json

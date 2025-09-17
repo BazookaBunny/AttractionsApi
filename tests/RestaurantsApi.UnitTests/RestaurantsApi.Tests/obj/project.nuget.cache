@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "A4KWMHoCuts=",
-  "success": false,
+  "dgSpecHash": "WCMr+3HK2Ps=",
+  "success": true,
   "projectFilePath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\tests\\RestaurantsApi.UnitTests\\RestaurantsApi.Tests\\RestaurantsApi.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joker\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
@@ -145,15 +145,5 @@
     "C:\\Users\\joker\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
     "C:\\Users\\joker\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Xunit from 2.9.3 to 2.5.3. Reference the package directly from the project to select a different version. \r\n RestaurantsApi.Tests -> RestaurantsApi.Api -> Xunit (>= 2.9.3) \r\n RestaurantsApi.Tests -> xunit (>= 2.5.3)",
-      "libraryId": "Xunit",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

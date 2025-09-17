@@ -7,10 +7,12 @@ using RestaurantsApi.Application.DTOs;
 public class AttractionsController : ControllerBase
 {
     private readonly IRestaurantsService _service;
+    private readonly ILogger<AttractionsController> _logger;
 
-    public AttractionsController(IRestaurantsService service)
+    public AttractionsController(IRestaurantsService service, ILogger<AttractionsController> logger)
     {
         _service = service;
+        _logger = logger;
     }
 
     // GET: api/attractions
@@ -19,8 +21,16 @@ public class AttractionsController : ControllerBase
     [ResponseCache(Duration = 60, Location = ResponseCacheLocation.Any, NoStore = false)]
     public async Task<IActionResult> GetAllAttractions()
     {
-        var restaurants = await _service.GetAllRestaurantsAsync();
-        return Ok(restaurants);
+        try
+        {
+            var restaurants = await _service.GetAllRestaurantsAsync();
+            return Ok(restaurants);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to get attractions");
+            return StatusCode(500, "An error occurred while processing your request.");
+        }
     }
 
     //get attraction by name

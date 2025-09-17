@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WojdOvyW3S4=",
+  "dgSpecHash": "+5QVW37Bcfw=",
   "success": true,
   "projectFilePath": "C:\\Users\\joker\\Desktop\\Projects\\RestaurantsAPI\\src\\RestaurantsApi.Api\\RestaurantsApi.Api.csproj",
   "expectedPackageFiles": [
@@ -81,14 +81,7 @@
     "C:\\Users\\joker\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "C:\\Users\\joker\\.nuget\\packages\\system.text.encodings.web\\9.0.8\\system.text.encodings.web.9.0.8.nupkg.sha512",
     "C:\\Users\\joker\\.nuget\\packages\\system.text.json\\9.0.8\\system.text.json.9.0.8.nupkg.sha512",
-    "C:\\Users\\joker\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\joker\\.nuget\\packages\\xunit\\2.9.3\\xunit.2.9.3.nupkg.sha512",
-    "C:\\Users\\joker\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
-    "C:\\Users\\joker\\.nuget\\packages\\xunit.analyzers\\1.18.0\\xunit.analyzers.1.18.0.nupkg.sha512",
-    "C:\\Users\\joker\\.nuget\\packages\\xunit.assert\\2.9.3\\xunit.assert.2.9.3.nupkg.sha512",
-    "C:\\Users\\joker\\.nuget\\packages\\xunit.core\\2.9.3\\xunit.core.2.9.3.nupkg.sha512",
-    "C:\\Users\\joker\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
-    "C:\\Users\\joker\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512"
+    "C:\\Users\\joker\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

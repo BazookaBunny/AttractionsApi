@@ -9,3 +9,4 @@ C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Deb
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Debug\net8.0\refint\RestaurantsApi.Domain.dll
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Debug\net8.0\RestaurantsApi.Domain.pdb
 C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Debug\net8.0\ref\RestaurantsApi.Domain.dll
+C:\Users\joker\Desktop\Projects\RestaurantsAPI\src\RestaurantsApi.Domain\obj\Debug\net8.0\RestaurantsApi.Domain.sourcelink.json
