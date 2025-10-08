@@ -39,10 +39,23 @@ public class AttractionsController : ControllerBase
     [ResponseCache(Duration = 60, Location = ResponseCacheLocation.Client)]
     public async Task<IActionResult> GetByName([FromQuery] string name)
     {
-        var allAttractions = await _service.GetAllRestaurantsAsync();
-        var filteredAttractions = allAttractions.Where(a =>
-        a.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
-        return Ok(filteredAttractions);
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            _logger.LogError("Name parameter is required.");
+            return BadRequest("Name parameter is required.");
+        }
+        try
+        {
+            var allAttractions = await _service.GetAllRestaurantsAsync();
+            var filteredAttractions = allAttractions.Where(a =>
+            a.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+            return Ok(filteredAttractions);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to get attraction by name. Attraction ${name} not found", name);
+            return StatusCode(500, "An error occurred while processing your request.");
+        }
     }
 
 
@@ -51,10 +64,25 @@ public class AttractionsController : ControllerBase
     [ResponseCache(Duration = 60, Location = ResponseCacheLocation.Client)]
     public async Task<IActionResult> GetByCategory([FromQuery] string category)
     {
-        var allRestaurants = await _service.GetAllRestaurantsAsync();
-        var filtered = allRestaurants
-            .Where(r => r.Category.Equals(category, StringComparison.OrdinalIgnoreCase));
-        return Ok(filtered);
+        if (string.IsNullOrWhiteSpace(category))
+        {
+            _logger.LogError("Category parameter is required.");
+            return BadRequest("Category parameter is required.");
+        }
+
+        try
+        {
+            var allRestaurants = await _service.GetAllRestaurantsAsync();
+            var filtered = allRestaurants
+                .Where(r => r.Category.Equals(category, StringComparison.OrdinalIgnoreCase));
+            return Ok(filtered);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to get attractions by category. Category: {category} not found", category);
+            return StatusCode(500, "An error occurred while processing your request.");
+        }
+
     }
 
 

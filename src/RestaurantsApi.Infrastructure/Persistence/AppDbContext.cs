@@ -26,6 +26,7 @@ public class AppDbContext : DbContext
     //     );
     // }
 
+
     public DbSet<Restaurant> Restaurants { get; set; }
     public DbSet<UserModel> Users { get; set; }
 }

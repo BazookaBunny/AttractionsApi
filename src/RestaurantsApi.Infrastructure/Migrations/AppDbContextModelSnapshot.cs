@@ -76,6 +76,15 @@ namespace RestaurantsApi.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("11111111-1111-1111-1111-111111111111"),
+                            PasswordHash = "$2a$10$k4sOQ9MhxNGE4UJh7X0E.Oa0rsXZ4nFyWZs2YqrfUM2bGcOhtO9zC",
+                            Role = 0,
+                            Username = "admin"
+                        });
                 });
 #pragma warning restore 612, 618
         }
